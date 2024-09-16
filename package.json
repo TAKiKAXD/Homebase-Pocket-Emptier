@@ -1,6 +1,6 @@
 {
   "name": "stormslots",
-  "version": "1.0.0-A",
+  "version": "1.0.1-A",
   "description": "slots",
   "main": "main.js",
   "scripts": {
@@ -17,16 +17,16 @@
       "preload.js",
       "index.html",
       "app.js",
-      "stats.js",
-      "settings.js",
+      "./Pages/JS/stats.js",
+      "./Pages/JS/settings.js",
       "images/**/*",
       "styles.css",
-      "stats.html",
-      "settings.html",
-      "disclaimer.html",
-      "disclaimer.js",
-      "debts.js",
-      "debts.html"
+      "./Pages/stats.html",
+      "./Pages/settings.html",
+      "./Pages/disclaimer.html",
+      "./Pages/JS/disclaimer.js",
+      "./Pages/JS/debts.js",
+      "./Pages/debts.html"
     ],
     "directories": {
       "output": "dist"
